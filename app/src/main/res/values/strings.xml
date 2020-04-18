@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToDo Bom</string>
+    <string name="add_items_here">Add Items Here!</string>
+    <string name="Create">Create</string>
+</resources>

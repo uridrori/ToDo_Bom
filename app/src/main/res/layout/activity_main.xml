@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkGray"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="77dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginBottom="52dp"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="@string/Create"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/NewList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:inputType="none"
+        android:text="@string/add_items_here"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-236dp" />
+
+    <TextView
+        android:id="@+id/currList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:freezesText="true"
+        android:gravity="top"
+        android:textColor="@color/white"
+        android:textSize="23dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
