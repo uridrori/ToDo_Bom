@@ -1,0 +1,1 @@
+I hereby declare that all code in this exercise was written by me and reflects my abilities alone. 
